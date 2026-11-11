@@ -1,0 +1,5 @@
+data/hasil/*
+!data/hasil/.gitkeep
+*.pem
+*.key
+.env
