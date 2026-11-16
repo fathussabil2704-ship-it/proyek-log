@@ -1,0 +1,5 @@
+total 16
+-rw-rw-r-- 1 sabil sabil  480 Nov 16 07:56 aktivitas.log
+-rw-r----- 1 sabil sabil  434 Nov 16 07:56 log-20261116-075633.tar.gz
+-rw-r----- 1 sabil sabil   93 Nov 16 07:56 log-20261116-075633.tar.gz.sha256
+drwxrwxr-x 2 sabil sabil 4096 Nov 16 07:56 terpilah
