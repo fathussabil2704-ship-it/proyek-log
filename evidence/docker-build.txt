@@ -1,0 +1,80 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 263B 0.0s done
+#1 DONE 0.2s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:26.04
+#2 DONE 4.9s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 62B 0.0s done
+#3 DONE 0.1s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/5] FROM docker.io/library/ubuntu:26.04@sha256:d66b366dac61b575bee2aef07e9c26e8070096fbe84a3d4d3eb0da069b5d76db
+#5 resolve docker.io/library/ubuntu:26.04@sha256:d66b366dac61b575bee2aef07e9c26e8070096fbe84a3d4d3eb0da069b5d76db
+#5 resolve docker.io/library/ubuntu:26.04@sha256:d66b366dac61b575bee2aef07e9c26e8070096fbe84a3d4d3eb0da069b5d76db 0.2s done
+#5 DONE 0.8s
+
+#4 [internal] load build context
+#4 transferring context: 4.06kB 0.0s done
+#4 DONE 0.6s
+
+#5 [1/5] FROM docker.io/library/ubuntu:26.04@sha256:d66b366dac61b575bee2aef07e9c26e8070096fbe84a3d4d3eb0da069b5d76db
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 0B / 42.17MB 0.2s
+#5 sha256:96aae9022e0e1b310a415e7c2ff1b435d853e8eabb2711cc70f4ad4010cc81b7 0B / 389B 0.2s
+#5 sha256:96aae9022e0e1b310a415e7c2ff1b435d853e8eabb2711cc70f4ad4010cc81b7 389B / 389B 1.2s done
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 3.15MB / 42.17MB 3.2s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 6.29MB / 42.17MB 6.2s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 9.44MB / 42.17MB 8.0s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 12.58MB / 42.17MB 10.1s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 15.73MB / 42.17MB 11.7s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 18.87MB / 42.17MB 13.1s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 22.02MB / 42.17MB 14.7s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 25.17MB / 42.17MB 16.1s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 28.31MB / 42.17MB 17.1s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 31.46MB / 42.17MB 18.2s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 34.60MB / 42.17MB 19.1s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 37.75MB / 42.17MB 20.3s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 40.89MB / 42.17MB 21.6s
+#5 sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 42.17MB / 42.17MB 22.8s done
+#5 extracting sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28
+#5 extracting sha256:517b871c26eac1b24d47992388bcc20e2afba3643a89e8c4a3921bfa5e1d1d28 12.0s done
+#5 DONE 35.7s
+
+#5 [1/5] FROM docker.io/library/ubuntu:26.04@sha256:d66b366dac61b575bee2aef07e9c26e8070096fbe84a3d4d3eb0da069b5d76db
+#5 extracting sha256:96aae9022e0e1b310a415e7c2ff1b435d853e8eabb2711cc70f4ad4010cc81b7
+#5 extracting sha256:96aae9022e0e1b310a415e7c2ff1b435d853e8eabb2711cc70f4ad4010cc81b7 0.2s done
+#5 DONE 35.9s
+
+#6 [2/5] RUN useradd -m -u 10001 appuser
+#6 DONE 3.3s
+
+#7 [3/5] WORKDIR /app
+#7 DONE 0.4s
+
+#8 [4/5] COPY src/ /app/src/
+#8 DONE 0.4s
+
+#9 [5/5] RUN chmod +x /app/src/main.sh /app/src/cek-arsip.sh
+#9 DONE 1.4s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 1.7s done
+#10 exporting manifest sha256:f9116c7408716c5ef09bd3ee15ee6625a34fad0d597bfda7edc47d1645434715 0.1s done
+#10 exporting config sha256:fc25dee0c22ebc576c35653c4c553bf3c4bdda956de435d9501563f7406364e2
+#10 exporting config sha256:fc25dee0c22ebc576c35653c4c553bf3c4bdda956de435d9501563f7406364e2 0.1s done
+#10 exporting attestation manifest sha256:ec1c18d2b6f1be2fd08b1b57310eea98263334ee19fa808508c11f6563ea8222
+#10 exporting attestation manifest sha256:ec1c18d2b6f1be2fd08b1b57310eea98263334ee19fa808508c11f6563ea8222 0.3s done
+#10 exporting manifest list sha256:4340dd147d20fea9d02fed399ef553ab54f7b2123f80b5fad72f70d18902ad70
+#10 exporting manifest list sha256:4340dd147d20fea9d02fed399ef553ab54f7b2123f80b5fad72f70d18902ad70 0.1s done
+#10 naming to docker.io/library/log-arsip:1.0
+#10 naming to docker.io/library/log-arsip:1.0 0.0s done
+#10 unpacking to docker.io/library/log-arsip:1.0
+#10 unpacking to docker.io/library/log-arsip:1.0 105.3s done
+#10 DONE 108.0s

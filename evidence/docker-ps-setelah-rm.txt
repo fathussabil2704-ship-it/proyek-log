@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
+f5fc6970ce59   nginx     "/docker-entrypoint.…"   45 minutes ago   Up 45 minutes   80/tcp    tes_jaringan

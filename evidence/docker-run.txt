@@ -1,0 +1,4 @@
+docker: Error response from daemon: unable to find user (id-u): no matching entries in passwd file
+
+Run 'docker run --help' for more information
+exit: 125

@@ -1,0 +1,4 @@
+Privileged=false
+/home/bagus/proyek-log/data/log-simulasi -> /data/input (RW=false)
+/home/bagus/proyek-log/data/hasil -> /data/output (RW=true)
+
