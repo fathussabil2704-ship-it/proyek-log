@@ -1,0 +1,22 @@
+== SEBELUM ==
+src/cek-arsip.sh: line 3: cd(dirname src/cek-arsip.sh): No such file or directory
+src/cek-arsip.sh: line 9: /lib/log.sh: No such file or directory
+src/cek-arsip.sh: line 10: /modul-arsip/verifikasi.sh: No such file or directory
+src/cek-arsip.sh: line 12: verifikasi_arsip: command not found
+Checksum TIDAK cocok
+exit: 127
+== PEMULIHAN: hapus salinan rusak, buat ulang dari sumber ==
+[2026-11-16 07:22:02] INFO START input=/home/halja/proyek-log/data/log-simulasi output=/home/halja/proyek-log/data/hasil
+[2026-11-16 07:22:02] INFO Pilah selesai: RINGKASAN LOG (2026-11-16 07:22:02) ERROR: 2 WARN: 2 INFO: 2 
+[2026-11-16 07:22:03] INFO Arsip dibuat: /home/halja/proyek-log/data/hasil/log-20261116-072202.tar.gz
+[2026-11-16 07:22:03] INFO Checksum cocok: /home/halja/proyek-log/data/hasil/log-20261116-072202.tar.gz
+[2026-11-16 07:22:03] INFO SELESAI status=SUKSES
+Berhasil: /home/halja/proyek-log/data/hasil/log-20261116-072202.tar.gz
+exit: 0
+== SESUDAH ==
+src/cek-arsip.sh: line 3: cd(dirname src/cek-arsip.sh): No such file or directory
+src/cek-arsip.sh: line 9: /lib/log.sh: No such file or directory
+src/cek-arsip.sh: line 10: /modul-arsip/verifikasi.sh: No such file or directory
+src/cek-arsip.sh: line 12: verifikasi_arsip: command not found
+Checksum TIDAK cocok
+exit: 127

@@ -1,0 +1,6 @@
+src/cek-arsip.sh: line 3: cd(dirname src/cek-arsip.sh): No such file or directory
+src/cek-arsip.sh: line 9: /lib/log.sh: No such file or directory
+src/cek-arsip.sh: line 10: /modul-arsip/verifikasi.sh: No such file or directory
+src/cek-arsip.sh: line 12: verifikasi_arsip: command not found
+Checksum TIDAK cocok
+exit: 127
