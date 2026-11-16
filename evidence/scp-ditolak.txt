@@ -1,0 +1,1 @@
+scp: remote open "proyek-log/data/hasil/uji-akses.txt": Permission denied
