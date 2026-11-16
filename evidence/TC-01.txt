@@ -1,0 +1,16 @@
+[2026-11-15 18:08:15] INFO START input=/home/zor/proyek-log/data/log-simulasi output=/home/zor/proyek-log/data/hasil
+[2026-11-15 18:08:15] INFO Pilah selesai: RINGKASAN LOG (2026-11-15 18:08:15) ERROR: 2 WARN: 2 INFO: 2 
+[2026-11-15 18:08:16] INFO Arsip dibuat: /home/zor/proyek-log/data/hasil/log-20261115-180816.tar.gz
+[2026-11-15 18:08:16] INFO Checksum cocok: /home/zor/proyek-log/data/hasil/log-20261115-180816.tar.gz
+[2026-11-15 18:08:16] INFO SELESAI status=SUKSES
+Berhasil: /home/zor/proyek-log/data/hasil/log-20261115-180816.tar.gz
+exit: 0
+RINGKASAN LOG (2026-11-15 18:08:15)
+ERROR: 2
+WARN: 2
+INFO: 2
+total 16K
+-rw-rw-r-- 1 zor zor  703 Nov 15 18:08 aktivitas.log
+-rw-rw-r-- 1 zor zor  429 Nov 15 18:08 log-20261115-180816.tar.gz
+-rw-rw-r-- 1 zor zor   93 Nov 15 18:08 log-20261115-180816.tar.gz.sha256
+drwxrwxr-x 2 zor zor 4.0K Nov 15 18:08 terpilah

@@ -1,0 +1,6 @@
+[2026-11-15 18:08:54] INFO START input=/home/zor/proyek-log/data/tidak-ada output=/home/zor/proyek-log/data/hasil
+[2026-11-15 18:08:54] ERROR Direktori input tidak ditemukan: /home/zor/proyek-log/data/tidak-ada
+exit: 2
+[2026-11-15 18:08:16] INFO SELESAI status=SUKSES
+[2026-11-15 18:08:54] INFO START input=/home/zor/proyek-log/data/tidak-ada output=/home/zor/proyek-log/data/hasil
+[2026-11-15 18:08:54] ERROR Direktori input tidak ditemukan: /home/zor/proyek-log/data/tidak-ada

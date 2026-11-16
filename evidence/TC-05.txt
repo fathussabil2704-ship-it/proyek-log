@@ -1,0 +1,2 @@
+Pemakaian: src/main.sh <dir-log-input> <dir-output>
+exit: 1
