@@ -1,0 +1,5 @@
+drwxr-x--- data/hasil
+-rw-r----- data/hasil/log-20261122-053021.tar.gz
+-rw-r----- data/hasil/log-20261122-053021.tar.gz.sha256
+-rw-r----- data/hasil/log-20261122-053315.tar.gz
+-rw-r----- data/hasil/log-20261122-053315.tar.gz.sha256
