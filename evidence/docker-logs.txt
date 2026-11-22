@@ -1,0 +1,6 @@
+[2026-11-22 05:33:15] INFO START input=input output=output
+[2026-11-22 05:33:15] INFO Pilah selesai: RINGKASAN LOG (2026-11-22 05:33:15) ERROR: 2 WARN: 2 INFO: 2 
+[2026-11-22 05:33:16] INFO Arsip dibuat: log-20261122-053315.tar.gz
+[2026-11-22 05:33:16] INFO Checksum cocok: log-20261122-053315.tar.gz
+[2026-11-22 05:33:16] INFO SELESAI status=SUKSES
+Berhasil: log-20261122-053315.tar.gz

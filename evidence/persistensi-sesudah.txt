@@ -1,1 +1,7 @@
-total 0
+aktivitas.log
+log-20261122-053021.tar.gz
+log-20261122-053021.tar.gz.sha256
+log-20261122-053315.tar.gz
+log-20261122-053315.tar.gz.sha256
+terpilah
+uji-akses.txt

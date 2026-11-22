@@ -1,4 +1,4 @@
 NanoCpus=500000000 Memory=134217728
-CONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT   MEM %     NET I/O   BLOCK I/O   PIDS
-02a3374e6cb3   log-mon   0.00%     0B / 0B             0.00%     0B / 0B   0B / 0B     0
+CONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT   MEM %     NET I/O       BLOCK I/O   PIDS
+abba8cfcbaac   log-mon   0.00%     1.602MiB / 128MiB   1.25%     876B / 126B   0B / 0B     1
 log-mon
