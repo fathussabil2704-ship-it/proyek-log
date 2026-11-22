@@ -1,7 +1,5 @@
-
 #!/usr/bin/env bash
 # main.sh - pilah log, arsipkan, lalu verifikasi checksum
-
 DIR="$(cd "$(dirname "$0")" && pwd)"
 
 [ $# -eq 2 ] || {
@@ -20,7 +18,7 @@ source "$DIR/modul-log/pilah-log.sh"
 source "$DIR/modul-arsip/arsip.sh"
 source "$DIR/modul-arsip/verifikasi.sh"
 
-log INFO "START input=$IN output=$OUT"
+log INFO "START input=$(basename "$IN") output=$(basename "$OUT")"
 
 validasi_dir_input "$IN" || exit $?
 validasi_dir_output "$OUT" || exit $?
@@ -31,6 +29,6 @@ buat_arsip "$OUT/terpilah" "$OUT" || exit $?
 verifikasi_arsip "$ARSIP" || exit $?
 
 log INFO "SELESAI status=SUKSES"
-echo "Berhasil: $ARSIP"
+echo "Berhasil: $(basename "$ARSIP")"
 
 exit 0

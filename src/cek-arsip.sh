@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # cek-arsip.sh - memeriksa checksum satu arsip
-DIR="$(cd"(dirname "$0")" && pwd)"
+DIR="$(cd "$(dirname "$0")" && pwd)"
 [ $# -eq 1 ] || { echo "Pemakaian: $0 <file-arsip.tar.gz>"; exit 1; }
-[ -f "$1" ]  || { echo "Arsip tidak ditemukan: $1"; exit 2; }
+[ -f "$1" ]  || { echo "Arsip tidak ditemukan: $(basename "$1")"; exit 2; }
 
-ARSIP="(realpath"1")"
-export LOG_FILE="(dirname"ARSIP")/aktivitas.log"
+ARSIP="$(realpath "$1")"
+export LOG_FILE="$(dirname "$ARSIP")/aktivitas.log"
 source "$DIR/lib/log.sh"
 source "$DIR/modul-arsip/verifikasi.sh"
 

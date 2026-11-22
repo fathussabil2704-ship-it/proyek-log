@@ -1,2 +1,2 @@
-CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
-f5fc6970ce59   nginx     "/docker-entrypoint.…"   45 minutes ago   Up 45 minutes   80/tcp    tes_jaringan
+CONTAINER ID   IMAGE           COMMAND               CREATED       STATUS                     PORTS     NAMES
+02bbb971ee9c   log-processor   "tail -f /dev/null"   11 days ago   Exited (255) 10 days ago             container-log-app

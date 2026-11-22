@@ -1,0 +1,6 @@
+| Anggota | Kontribusi | Bukti |
+|---|---|---|
+| A: [Agung Dwi Hartanto/2510501107] | [pekerjaan A yang benar-benar dikerjakan, mis. versi awal library log, validasi, modul pilah log, main.sh] | [commit ID: 2460d95657b801450d52c3a7718a8b2ffc42e803, d1c1efcd26a003778a1838c46aec7ff86df936f6, a153689716b73cb58710dbd5181d75b8c7216192, b921e7fbbbdf9c8fef5ab5902c0552265c60292a, 25b53052a87f245faf1c2d26896f9c2105d27be0, 477a0e512174cc5820b0e88a34ddc81c2f48e858, 06c951f09f194b63dc7e61b992f4f7626f1a59ce, 453f9d9382829e78afda6cada952b808bb632457 |
+| B: [Muhammad Halzha Julian/2510501114] | [pekerjaan B, mis. versi awal modul arsip dan verifikasi] | [commit ID: 6bd12fb74de2ec40b143c9ff7853392cde30e2e9, 0c869329a007246704698349eff18819a4e5cb74, d1c1efcd26a003778a1838c46aec7ff86df936f6 |
+| C: [Bagus Imawan Nugroho/2510501133] | [pekerjaan C, mis. Dockerfile, image, network] | [commit ID: d1c1efcd26a003778a1838c46aec7ff86df936f6, 6d2c1977661a0538ba2428a2b82424a78bac9b0d, 52a8f172f084045145b32c9467c59026482dc776 |
+| D: [Fathussabil/2510501120] | Perbaikan script (kode exit, cek-arsip, log tanpa path), pengulangan seluruh bukti, bukti SCP dan permission, dokumentasi | branch perbaikan-semua, commit [ID] |

@@ -1,0 +1,3 @@
+[2026-11-22 05:25:27] INFO START input=etc output=hasil
+[2026-11-22 05:25:27] ERROR Direktori input ditolak (folder sistem): etc
+exit: 3

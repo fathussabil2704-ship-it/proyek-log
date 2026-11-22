@@ -1,3 +1,3 @@
-CONTAINER ID   IMAGE           COMMAND                  CREATED          STATUS          PORTS     NAMES
-3bb4715fec95   log-arsip:1.0   "bash /app/src/main.…"   5 minutes ago    Created                   log-proc
-f5fc6970ce59   nginx           "/docker-entrypoint.…"   51 minutes ago   Up 51 minutes   80/tcp    tes_jaringan
+CONTAINER ID   IMAGE           COMMAND                  CREATED         STATUS                     PORTS     NAMES
+128c81ae70a0   log-arsip:1.0   "bash /app/src/main.…"   5 minutes ago   Exited (0) 5 minutes ago             log-proc
+02bbb971ee9c   log-processor   "tail -f /dev/null"      11 days ago     Exited (255) 10 days ago             container-log-app
