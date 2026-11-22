@@ -7,5 +7,5 @@ buat_arsip() {   # $1=dir terpilah (absolut), $2=dir output (absolut)
     || { rm -f "$ARSIP"; log ERROR "tar gagal"; return 4; }
   ( cd "$2" && sha256sum "$(basename "$ARSIP")" > "$(basename "$ARSIP").sha256" ) \
     || { log ERROR "checksum gagal dibuat"; return 5; }
-  log INFO "Arsip dibuat: $ARSIP"
+  log INFO "Arsip dibuat: $(basename "$ARSIP")"
 }
