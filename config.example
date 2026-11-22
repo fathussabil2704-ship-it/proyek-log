@@ -1,0 +1,5 @@
+# Contoh konfigurasi, tanpa credential
+INPUT_DIR=data/log-simulasi
+OUTPUT_DIR=data/hasil
+CPU_LIMIT=0.5
+MEM_LIMIT=128m
